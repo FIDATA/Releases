@@ -127,3 +127,11 @@ Not supported in v1.x
   [http://deboutv.free.fr/mantis/plugin.php?plugin=ReleaseMgt](http://deboutv.free.fr/mantis/plugin.php?plugin=ReleaseMgt)
 - Jiri Hron <jirka.hron@gmail.com>
   [http://code.google.com/p/mantis-releasemgt/](http://code.google.com/p/mantis-releasemgt/)
+
+## Creating Composer package
+
+```
+mkdir build
+composer archive --format=zip --dir=build --file=Releases-1.2.0
+curl -u%ARTIFACTORY_USERNAME%:%ARTIFACTORY_PASSWORD% "https://fidata.jfrog.io/fidata/composer-local/fidata/Releases-1.2.0.zip;composer.version=1.2.0" -T build/Releases-1.2.0.zip
+```

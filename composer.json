@@ -1,0 +1,29 @@
+{
+    "name": "fidata/releases",
+    "description": "Basic version of 'GitHub Releases' for MantisBT, with REST API",
+    "type": "mantisbt-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vincent Debout",
+            "email": "deboutv@free.fr"
+        },
+        {
+            "name": "Jiri Hron",
+            "email": "jirka.hron@gmail.com"
+        },
+        {
+            "name": "Scott Meesseman",
+            "email": "spmeesseman@gmail.com"
+        }
+    ],
+    "archive": {
+        "exclude": [
+            "/res",
+            ".gitignore",
+            ".publishrc.json",
+            "CHANGELOG.md",
+            "README.md"
+        ]
+    }
+}
