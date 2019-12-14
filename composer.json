@@ -19,6 +19,7 @@
     ],
     "archive": {
         "exclude": [
+            "/api/test",
             "/res",
             ".gitignore",
             ".publishrc.json",
