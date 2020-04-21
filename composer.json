@@ -19,6 +19,7 @@
     ],
     "archive": {
         "exclude": [
+            "/.project",
             "/api/test",
             "/res",
             ".gitignore",
